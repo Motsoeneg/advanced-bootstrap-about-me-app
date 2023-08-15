@@ -6,7 +6,6 @@
 
 body {
   margin: 60px auto;
-  max-width: 800px;
 }
 
 h1,
@@ -86,4 +85,18 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+@media (max-width: 600px) {
+  .img-fluid {
+    display: none;
+  }
+
+  .mt-5 {
+    text-align: center;
+  }
+}
+@media (max-width: 1252px) {
+  body {
+    background-color: rgb(233, 201, 158);
+  }
 }
